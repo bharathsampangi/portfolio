@@ -1,0 +1,26 @@
+$bg-dark: #2b2b2c;
+$border-dark: #344774;
+
+$shark: #2b2b2c;
+$can-can: #d8a19d;
+$tradewind: #6aaeb0;
+$roman-coffee: #7b6153;
+$elf-green: #0a857e;
+$wedgewood: #5880ad;
+$emperor: #504744;
+$san-juan: #344774;
+$blue-dianne: #1e514c;
+
+@mixin icon {
+    font-size: 1.5rem;
+    padding: .75rem;
+    border-radius: 100%;
+    box-shadow: 2px 2px 3px 3px darken($bg-dark, 3%), -1px -1px 2px 2px lighten($bg-dark, 10%);
+    cursor: pointer;
+
+    &:hover {
+        // background-color: lighten($bg-dark, 1%);
+        transition: all .2s;
+        box-shadow: 1px 1px 2px 2px lighten($bg-dark, 5%), -2px -2px 3px 3px darken($bg-dark, 5%);
+    }
+}
