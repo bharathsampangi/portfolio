@@ -15,7 +15,7 @@ $blue-dianne: #1e514c;
     font-size: 1.5rem;
     padding: .75rem;
     border-radius: 100%;
-    box-shadow: 2px 2px 3px 3px darken($bg-dark, 3%), -1px -1px 2px 2px lighten($bg-dark, 10%);
+    box-shadow: 2px 2px 3px 3px darken($bg-dark, 5%), -1px -1px 2px 2px lighten($bg-dark, 10%);
     cursor: pointer;
 
     &:hover {
@@ -23,4 +23,8 @@ $blue-dianne: #1e514c;
         transition: all .2s;
         box-shadow: 1px 1px 2px 2px lighten($bg-dark, 5%), -2px -2px 3px 3px darken($bg-dark, 5%);
     }
+}
+
+@mixin btn {
+    padding: 1px;
 }
