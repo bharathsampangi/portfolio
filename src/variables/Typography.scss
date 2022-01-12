@@ -7,12 +7,20 @@ h1 {
 
 p {
     color: $color-light;
-    font-size: 1rem;
+    font-size: 1.25rem;
+}
+
+h2 {
+    color: white;
+    font-size: 2.25rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
 }
 
 h5 {
     color: $color-light;
-    font-size: 1.5rem;
+    font-size: 1.75rem;
 }
 
 .btn {

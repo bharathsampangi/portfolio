@@ -1,12 +1,22 @@
+import { useState } from 'react'
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 import './App.scss';
+import './variables/Base.scss'
 import Navbar from './components/Navbar'
-import Header from './components/Header'
+import Home from './components/Home'
 
 function App() {
+
+  const [dark, setDark] = useState(true)
+
   return (
-    <div className="App">
-      <Navbar />
-      <Header />
+    <div className="theme--default">
+      <Router>
+        <Navbar />
+        <Routes>
+          <Route path="/" exact element={<Home />} />
+        </Routes>
+      </Router>
     </div>
   );
 }

@@ -2,6 +2,8 @@ $bg-dark: #2b2b2c;
 $border-dark: #344774;
 $color-primary: #fb839e;
 $color-light: #c3c4c7;
+$bg-light: #eff0f4;
+$icon-dark: #eff0f4;
 
 $shark: #2b2b2c;
 $tradewind: #6aaeb0;
@@ -12,12 +14,60 @@ $emperor: #504744;
 $san-juan: #344774;
 $blue-dianne: #1e514c;
 
+$aqua-haze: #ebf3f3;
+$outer-space: #283e3e;
+$brick-red: #bd2d3a;
+$muddy-waters: #bc8f67;
+$bali-hai: #8ba3b4;
+$petite-orchid: #e29991;
+$cashmere: #e5bf9b;
+$puerto-rico: #34beb9;
+$ziggurat: #b9d6e3;
+
+$bg: 'bg';
+$card-bg: 'card-bg';
+$text: 'text';
+$text-secondary: 'text-secondary';
+$link: 'link';
+$hover: 'hover';
+$logo: 'logo';
+$brand-blue: 'brand-blue';
+$brand-red: 'brand-red';
+$border: 'border';
+
+$themes: (
+    default: (
+        bg: $bg-dark
+    ),
+    light: (
+        bg: $bg-light
+    )
+);
+
+@mixin themed() {
+    @each $theme, $map in $themes {
+      .theme--#{$theme} & {
+        $theme-map: () !global;
+        @each $key, $submap in $map {
+          $value: map-get(map-get($themes, $theme), '#{$key}');
+          $theme-map: map-merge($theme-map, ($key: $value)) !global;
+        }
+        @content;
+        $theme-map: null !global;
+      }
+    }
+  }
+  
+@function t($key) {
+    @return map-get($theme-map, $key);
+}
+
 @mixin icon {
     font-size: 1.5rem;
     padding: .75rem;
     border-radius: 100%;
-    box-shadow: 2px 2px 3px 3px darken($bg-dark, 5%), -1px -1px 2px 2px lighten($bg-dark, 10%);
     cursor: pointer;
+    box-shadow: 2px 2px 3px 3px darken($bg-dark, 5%), -1px -1px 2px 2px lighten($bg-dark, 10%);
 
     &:hover {
         // background-color: lighten($bg-dark, 1%);
@@ -30,10 +80,10 @@ $blue-dianne: #1e514c;
     padding: 1rem 2rem;
     font-size: 1rem;
     border-radius: 2rem;
+    cursor: pointer;
     background: $bg-dark;
     border: 1px solid $bg-dark;
     box-shadow: 2px 2px 3px 3px darken($bg-dark, 5%), -1px -1px 3px 3px lighten($bg-dark, 5%);
-    cursor: pointer;
 
     &:hover {
         box-shadow: 1px 1px 3px 3px lighten($bg-dark, 5%), -2px -2px 4px 4px darken($bg-dark, 7.5%);
