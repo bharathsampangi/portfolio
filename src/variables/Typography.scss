@@ -2,11 +2,11 @@
 
 h1 {
     color: white;
-    font-size: 5rem;
+    font-size: 4.25rem;
 }
 
 p {
-    color: $color-light;
+    color: $color-dark-secondary;
     font-size: 1.25rem;
 }
 
@@ -19,7 +19,7 @@ h2 {
 }
 
 h5 {
-    color: $color-light;
+    color: $color-dark-secondary;
     font-size: 1.75rem;
 }
 
@@ -28,5 +28,5 @@ h5 {
 }
 
 .btn__primary {
-    color: $color-primary;
+    color: $color-dark-primary;
 }
