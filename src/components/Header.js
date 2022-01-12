@@ -10,8 +10,8 @@ function Header() {
                     <div class="header__content-text">
                         <p>Hello</p>
                         <h1>I'm Bharath Sampangi</h1>
-                        <h3>Fullstack Dev</h3>
-                        <button class="btn">More About Me</button>
+                        <h5>A Fullstack Dev</h5>
+                        <button class="btn btn__primary">More About Me</button>
                     </div>
                 </div>
                 <div className="header__img">

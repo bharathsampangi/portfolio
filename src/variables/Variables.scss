@@ -1,8 +1,9 @@
 $bg-dark: #2b2b2c;
 $border-dark: #344774;
+$color-primary: #fb839e;
+$color-light: #c3c4c7;
 
 $shark: #2b2b2c;
-$can-can: #d8a19d;
 $tradewind: #6aaeb0;
 $roman-coffee: #7b6153;
 $elf-green: #0a857e;
@@ -20,11 +21,23 @@ $blue-dianne: #1e514c;
 
     &:hover {
         // background-color: lighten($bg-dark, 1%);
-        transition: all .2s;
+        transition: all .5s;
         box-shadow: 1px 1px 2px 2px lighten($bg-dark, 5%), -2px -2px 3px 3px darken($bg-dark, 5%);
     }
 }
 
 @mixin btn {
-    padding: 1px;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    border-radius: 2rem;
+    background: $bg-dark;
+    border: 1px solid $bg-dark;
+    box-shadow: 2px 2px 3px 3px darken($bg-dark, 5%), -1px -1px 3px 3px lighten($bg-dark, 5%);
+    cursor: pointer;
+
+    &:hover {
+        box-shadow: 1px 1px 3px 3px lighten($bg-dark, 5%), -2px -2px 4px 4px darken($bg-dark, 7.5%);
+        transition: box-shadow .5s;
+    }
+
 }

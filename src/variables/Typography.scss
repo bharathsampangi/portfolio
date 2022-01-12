@@ -6,15 +6,19 @@ h1 {
 }
 
 p {
-    color: white;
+    color: $color-light;
     font-size: 1rem;
 }
 
-h3 {
-    color: white;
+h5 {
+    color: $color-light;
     font-size: 1.5rem;
 }
 
 .btn {
     @include btn;
+}
+
+.btn__primary {
+    color: $color-primary;
 }
