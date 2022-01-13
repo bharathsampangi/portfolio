@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import '../styles/Tabs.scss'
 import '../variables/Typography.scss'
-import Card from './Card'
+import {LeftCard, RightCard} from './Card'
 
 function Tabs() {
     const [active, setActive] = useState("experience")
@@ -17,9 +17,45 @@ function Tabs() {
             </div>
             <div id="experience" className="tabs__bars" style={active !== 'experience' ? {display: 'none'} : {}}>
                 <div className="row">
-                    <Card>
-                        <h5>Software Engineer</h5>
-                    </Card>
+                    <div className="tabs__tab clearfix">
+                        <div className="tabs__tab-left">
+                            <div className="tabs__tab-left-round"></div>
+                            <LeftCard>
+                                <h5>Aug. 2021 - Present</h5>
+                                <h4>Software Engineer</h4>
+                                <span className="text__medium">Spurtree Technologies, Bangalore</span>
+                                <p>
+                                    Designing backend API's on Nodejs with efficient error handling. Using Sequelize to connect to SQL and build models and queries. Participating in
+                                    model building based on requirements. Integrating robust applications like Nodebb forums and Algolia Search in backend.
+                                    Building UI on React and integrating API's from backend and handling pagination.
+                                </p>   
+                            </LeftCard>
+                        </div>
+                    </div>
+                    <div className="tabs__tab clearfix">
+                        <div className="tabs__tab-right">
+                            <div className="tabs__tab-right-round"></div>
+                            <RightCard>
+                                <h5>Apr. 2020 - Aug. 2021</h5>
+                                <h4>Full stack Developer</h4>
+                                <span className="text__medium">Allstate Technology Solutions, Bangalore</span>
+                                <p>Built multiple products using React, SQL and Spring Boot. Collaborating with product teams across organization for product development and support.
+                                    Mentoring colleagues and new joinees on product info and development. Keeping product healthy by consistent maintainence and deploys.</p>   
+                            </RightCard>
+                        </div>
+                    </div>
+                    <div className="tabs__tab clearfix">
+                        <div className="tabs__tab-left">
+                            <div className="tabs__tab-left-round"></div>
+                            <LeftCard>
+                                <h5>Oct. 2017 - Apr.2020</h5>
+                                <h4>Software Developer</h4>
+                                <span className="text__medium">Improwea Business Solutions Private Limited, Bangalore</span>
+                                <p>Built scalable backends on Spring Boot, MongoDB. Developed Cross platform mobile application using Apache Cordova framework.
+                                    Built extensive UI's and Component libraries using React, HTML and CSS.</p>   
+                            </LeftCard>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div id="education" className="tabs__bars" style={active !== 'education' ? {display: 'none'} : {}}>

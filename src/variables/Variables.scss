@@ -1,9 +1,9 @@
 $bg-dark: #2b2b2c;
-$border-dark: #344774;
 $color-dark-primary: #fb839e;
 $color-dark-secondary: #c3c4c7;
 $bg-light: #eff0f4;
 $icon-dark: #c3c4c7;
+$color-dark-tertiary: #474748;
 
 $shark: #2b2b2c;
 $tradewind: #6aaeb0;
@@ -91,4 +91,10 @@ $themes: (
         transition: box-shadow .5s;
     }
 
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
 }

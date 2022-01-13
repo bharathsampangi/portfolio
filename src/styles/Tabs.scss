@@ -6,7 +6,6 @@
     }
     padding: 7.5rem 0 ;
 
-
     &__bar {
         display: flex;
         justify-content: center;
@@ -14,5 +13,89 @@
 
     &__bars {
         padding: 5rem 0;
+    }
+
+    &__tab-left {
+        width: 50%;
+        position: relative;
+        float: left;
+
+        &::after {
+            content: '';
+            display: block;
+            border-right: 1px solid $color-dark-tertiary;
+            position: absolute;
+            top: 0;
+            right: 0;
+            height: 100%;
+        }
+
+        &-round {
+            &::before {
+                content: '';
+                display: block;
+                border-bottom: 1px solid $color-dark-tertiary;
+                position: absolute;
+                top: 7%;
+                width: 10%;
+                right: 0;
+            }
+
+            &::after {
+                content: '';
+                display: block;
+                position: absolute;
+                top: 0%;
+                right: -2.5%;
+                height: 2rem;
+                width: 2rem;
+                background: $bg-dark;
+                border-radius: 50%;
+                border: 1px solid $color-dark-tertiary;
+                z-index: 1;
+            }
+        }
+    }
+
+    &__tab-right {
+        width: 50%;
+        position: relative;
+        float: right;
+
+        &::after {
+            content: '';
+            display: block;
+            border-right: 1px solid $color-dark-tertiary;
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+        }
+
+        &-round {
+            &::before {
+                content: '';
+                display: block;
+                border-bottom: 1px solid $color-dark-tertiary;
+                position: absolute;
+                top: 7%;
+                width: 10%;
+                left: 0;
+            }
+
+            &::after {
+                content: '';
+                display: block;
+                position: absolute;
+                top: 0%;
+                left: -3%;
+                height: 2rem;
+                width: 2rem;
+                background: $bg-dark;
+                border-radius: 50%;
+                border: 1px solid $color-dark-tertiary;
+                z-index: 1;
+            }
+        }
     }
 }

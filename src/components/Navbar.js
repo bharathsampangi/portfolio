@@ -6,7 +6,7 @@ function Navbar() {
         <>
             <nav className="navbar">
                 <div className="navbar__menu row">
-                    <h5>BS</h5>
+                    <h3>BS</h3>
                     <i class="fas fa-bars"></i>
                 </div>
             </nav>
