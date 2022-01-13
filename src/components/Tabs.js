@@ -60,7 +60,41 @@ function Tabs() {
             </div>
             <div id="education" className="tabs__bars" style={active !== 'education' ? {display: 'none'} : {}}>
                 <div className="row">
-                    Hi
+                    <div className="tabs__tab clearfix">
+                        <div className="tabs__tab-left">
+                            <div className="tabs__tab-left-round"></div>
+                            <LeftCard>
+                                <h5>Jun. 2013 – May. 2017</h5>
+                                <h4>Bachelor of Engineering, Information Science</h4>
+                                <span className="text__medium">Visveshvaraya Technological University</span>
+                                <p>
+                                    Aggregate: 71%
+                                </p>   
+                            </LeftCard>
+                        </div>
+                    </div>
+                    <div className="tabs__tab clearfix">
+                        <div className="tabs__tab-right">
+                            <div className="tabs__tab-right-round"></div>
+                            <RightCard>
+                                <h5>Jun. 2012 - Mar. 2013</h5>
+                                <h4>12th standard, PCMB</h4>
+                                <span className="text__medium">Central Board of Secondary Education</span>
+                                <p>Aggregate: 70%</p>   
+                            </RightCard>
+                        </div>
+                    </div>
+                    <div className="tabs__tab clearfix">
+                        <div className="tabs__tab-left">
+                            <div className="tabs__tab-left-round"></div>
+                            <LeftCard>
+                                <h5>Jun. 2010 - Mar. 2011</h5>
+                                <h4>10th standard</h4>
+                                <span className="text__medium">Central Board of Secondary Education</span>
+                                <p>Aggregate: 92%</p>   
+                            </LeftCard>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>        
