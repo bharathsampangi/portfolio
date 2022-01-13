@@ -5,7 +5,7 @@ function Navbar() {
     return (
         <>
             <nav className="navbar">
-                <div className="navbar__menu">
+                <div className="navbar__menu row">
                     <h5>BS</h5>
                     <i class="fas fa-bars"></i>
                 </div>

@@ -1,29 +1,28 @@
-import React from 'react'
+import React, {useState} from 'react'
 import '../styles/Tabs.scss'
 import '../variables/Typography.scss'
+import Card from './Card'
 
 function Tabs() {
-
+    const [active, setActive] = useState("experience")
     const openBar = (bar) => {
-        let bars = document.getElementsByClassName("tabs__bars")
-        for(let i=0; i<bars.length; i++) {
-            bars[i].style.display = "none"
-        }
-        document.getElementById(bar).style.display = "block"
+        setActive(bar)
     }
 
     return (
         <section className="tabs" >
             <div className="tabs__bar">
-                <button className="btn btn__primary" onClick={() => openBar('experience')} >Experience</button>
-                <button className="btn btn__flat" onClick={() => openBar('education')}>Education</button>
+                <button className={active === 'experience' ? 'btn btn__primary' : 'btn btn__flat'} onClick={() => openBar('experience')} >Experience</button>
+                <button className={active === 'education' ? 'btn btn__primary' : 'btn btn__flat'} onClick={() => openBar('education')}>Education</button>
             </div>
-            <div id="experience" className="tabs__bars">
+            <div id="experience" className="tabs__bars" style={active !== 'experience' ? {display: 'none'} : {}}>
                 <div className="row">
-                    Hello
+                    <Card>
+                        <h5>Software Engineer</h5>
+                    </Card>
                 </div>
             </div>
-            <div id="education" className="tabs__bars" style={{display: 'none'}}>
+            <div id="education" className="tabs__bars" style={active !== 'education' ? {display: 'none'} : {}}>
                 <div className="row">
                     Hi
                 </div>

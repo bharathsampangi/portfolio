@@ -1,0 +1,6 @@
+@import '../variables/Variables.scss';
+
+.card {
+    padding: 2rem;
+    box-shadow: 2px 2px 5px 5px darken($bg-dark, 5%), -2px -2px 5px 5px lighten($bg-dark, 7.5%);
+}
