@@ -39,7 +39,7 @@
         justify-content: center;
 
         &-inline {
-            padding: 2rem;
+            padding: 1.5rem;
             box-shadow: 2px 2px 5px 5px darken($bg-dark, 5%), -2px -2px 5px 5px lighten($bg-dark, 7.5%);
             border-radius: 100%;
         }
@@ -51,12 +51,12 @@
         }
 
         img {
-            width: 30rem;
+            width: 35rem;
             height: auto;
             border-radius: 100%;
 
             @media screen and (max-width: 1400px) {
-                width: 20rem;
+                width: 23rem;
             }
 
         }
