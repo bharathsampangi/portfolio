@@ -64,7 +64,7 @@ function Tabs() {
                         <div className="tabs__tab-left">
                             <div className="tabs__tab-left-round"></div>
                             <LeftCard>
-                                <h5>Jun. 2013 – May. 2017</h5>
+                                <h5>Jun. 2013 - May. 2017</h5>
                                 <h4>Bachelor of Engineering, Information Science</h4>
                                 <span className="text__medium">Visveshvaraya Technological University</span>
                                 <p>
