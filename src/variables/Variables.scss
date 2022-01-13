@@ -83,6 +83,7 @@ $themes: (
     cursor: pointer;
     background: $bg-dark;
     border: 1px solid $bg-dark;
+    margin: 0 1rem;
     box-shadow: 2px 2px 3px 3px darken($bg-dark, 5%), -1px -1px 3px 3px lighten($bg-dark, 5%);
 
     &:hover {

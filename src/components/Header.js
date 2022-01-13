@@ -8,8 +8,8 @@ function Header() {
             <div className="header">
                 <div className="header__content">
                     <div class="header__content-text">
-                        <p>Hello</p>
-                        <h1>I'm Bharath Sampangi</h1>
+                        <p>Hello, I'm </p>
+                        <h1>Bharath Sampangi</h1>
                         <h5>A Fullstack Dev</h5>
                         <button class="btn btn__primary">More About Me</button>
                     </div>

@@ -4,7 +4,7 @@
     @include themed() {
         background: t($bg);
     }
-    padding-bottom: 3rem;
+    padding-bottom: 5rem;
 
     &__text {
         display: flex;
