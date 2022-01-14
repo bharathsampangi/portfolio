@@ -2,7 +2,7 @@
 
 h1 {
     color: white;
-    font-size: 4rem;
+    font-size: 5rem;
 }
 
 p {
@@ -17,6 +17,7 @@ h2 {
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: 700;
+    text-align: center;
 }
 
 h3 {
@@ -34,6 +35,12 @@ h5 {
     color: $color-dark-primary;
     font-size: 1rem;
     padding-bottom: .75rem;
+}
+
+h6 {
+    color: $color-dark-secondary;
+    font-size: 1.15rem;
+    font-weight: 300;
 }
 
 .text__medium {

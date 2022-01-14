@@ -4,7 +4,7 @@
     @include themed() {
         background: t($bg);
     }
-    padding: 7.5rem 0 ;
+    padding: 5rem 0 ;
 
     &__bar {
         display: flex;
@@ -12,7 +12,7 @@
     }
 
     &__bars {
-        padding: 5rem 0;
+        padding-top: 5rem;
     }
 
     &__tab-left {

@@ -1,0 +1,16 @@
+@import '../variables/Variables.scss';
+
+.skills {
+    padding: 3rem 0;
+    background: $bg-dark;
+
+    &__box {
+        padding: 3.5rem 0;
+    }
+
+    &__container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+}

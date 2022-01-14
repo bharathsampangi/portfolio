@@ -2,6 +2,7 @@ import React from 'react'
 import Header from './Header'
 import About from './About'
 import Tabs from './Tabs'
+import Skills from './Skills'
 
 function Home() {
     return(
@@ -9,6 +10,7 @@ function Home() {
             <Header />
             <About />
             <Tabs />
+            <Skills />
         </>
     )
 }
