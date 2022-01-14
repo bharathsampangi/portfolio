@@ -6,7 +6,7 @@ function About() {
         <section className="about">
             <div class="row">
                 <div className="about__text">
-                    <h5>MAIN INFO</h5>
+                    <h6>MAIN INFO</h6>
                     <h2>About me</h2>
                     <p>My name is Bharath Sampangi. I'm a Fullstack Developer. I have 4 years of experience in building web application. 
                         I am working in Spurtree Technologies as Fullstack Developer. Lorem ipsum dolor sit amet, consectetur adipiscing 

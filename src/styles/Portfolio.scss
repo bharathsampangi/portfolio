@@ -1,0 +1,17 @@
+@import '../variables/Variables.scss';
+
+.portfolio {
+    background: $bg-dark;
+    padding: 5rem 0;
+
+    &__main {
+        padding: 5rem 0;
+    }
+
+    &__container {
+        margin-top: 2rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+}
