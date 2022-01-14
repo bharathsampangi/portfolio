@@ -71,3 +71,18 @@ h6 {
     };
 
 }
+
+.link {
+    &__small {
+        text-decoration: none;
+        color: $color-dark-secondary;
+        padding: 0 .5rem;
+        font-size: 1.15rem;
+
+        &:hover {
+            color: $color-dark-primary;
+            transition: all .2s;
+        }
+
+    }
+}

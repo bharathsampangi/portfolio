@@ -21,10 +21,17 @@ export function RightCard({children}) {
     )
 }
 
-export function PortfolioCard({src}) {
+export function PortfolioCard({src, text, link, gitlink}) {
     return(
         <div className="card card__portfolio">
             <img src={src} className="card__image" />
+            <div className="card__link">
+                {text}
+                <span className="card__link-icons">
+                    <a href={link} target="_blank" className="link__small"><i class="fas fa-desktop"></i></a>
+                    <a href={gitlink} target="_blank" className="link__small"><i class="fas fa-code-branch"></i></a>
+                </span>
+            </div>
         </div>
     )
 }

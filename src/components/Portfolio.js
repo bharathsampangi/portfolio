@@ -12,9 +12,15 @@ function Portfolio() {
             <div class="row">
                 <div className="portfolio__main">
                     <div className="portfolio__container">
-                        <PortfolioCard src="/images/omnifood.png"/>
-                        <PortfolioCard src="/images/old-profile.png"/>
-                        <PortfolioCard src="/images/banana.png"/>
+                        <PortfolioCard src="/images/omnifood.png" text="Omnifood" 
+                            link="https://omnifoodpremium.netlify.app" 
+                            gitlink="https://github.com/bharathsampangi/omnifood"/>
+                        <PortfolioCard src="/images/old-profile.png" text="Portfolio Old" 
+                            link="https://bharathsampangi-old.netlify.app" 
+                            gitlink="https://github.com/bharathsampangi/portfolio_website"/>
+                        <PortfolioCard src="/images/banana.png" text="Banana Talk" 
+                            link="https://banana-talk-markfive.netlify.app" 
+                            gitlink="https://github.com/bharathsampangi/banana-language"/>
                     </div>
                 </div>
             </div>

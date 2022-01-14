@@ -27,4 +27,15 @@
         width: 92%;
     }
 
+    &__link {
+        padding-top: 1rem;
+        font-size: 1.15rem;
+        color: $color-dark-secondary;
+
+        &-icons {
+            float: right;
+        }
+
+    }
+
 }
