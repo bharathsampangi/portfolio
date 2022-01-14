@@ -35,3 +35,13 @@ export function PortfolioCard({src, text, link, gitlink}) {
         </div>
     )
 }
+
+export function ContactCard({ iconClass, title, text }) {
+    return (
+        <div className="card">
+            <i className={`icon-big ${iconClass}`}></i>
+            <h4>{title}</h4>
+            <p>{text}</p>
+        </div>
+    )
+}

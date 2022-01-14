@@ -4,6 +4,7 @@ import About from './About'
 import Tabs from './Tabs'
 import Skills from './Skills'
 import Portfolio from './Portfolio'
+import Contact from './Contact'
 
 function Home() {
     return(
@@ -13,6 +14,7 @@ function Home() {
             <Tabs />
             <Skills />
             <Portfolio />
+            <Contact />
         </>
     )
 }

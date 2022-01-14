@@ -1,0 +1,17 @@
+@import '../variables/Variables.scss';
+
+.contact {
+    padding: 5rem 0;
+    background: $bg-dark;
+
+    &__main {
+        padding-top: 5rem;
+    }
+
+    &__container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        text-align: center;
+    }
+
+}
