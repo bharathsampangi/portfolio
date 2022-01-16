@@ -16,8 +16,10 @@ function Contact() {
                         <ContactCard iconClass='fas fa-envelope' title='Email' text='bharathsampangi95@gmail.com' />
                         <ContactCard iconClass='fas fa-map-marker-alt' title='Address' text='Bangalore, Karnataka' />
                     </div>
+                    <br/>
                 </div>
             </div>
+            <p style={{textAlign: 'center', paddingTop: '1rem'}}>Note: Not optimized for mobile screens (WIP)</p>
         </section>
     )
 }
