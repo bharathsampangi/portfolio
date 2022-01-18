@@ -11,7 +11,7 @@ function Header() {
                         <p>Hello, I'm </p>
                         <h1>Bharath Sampangi</h1>
                         <h3>A Fullstack Developer</h3>
-                        <a href="#about" className="btn btn__primary header__button" rel="no_referrer" style={{fontSize: '1.15rem'}}>More About Me</a>
+                        <a href="#about" className="btn__primary header__button" rel="no_referrer">More About Me</a>
                     </div>
                 </div>
                 <div className="header__img">

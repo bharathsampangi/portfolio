@@ -7,6 +7,19 @@
 
     &__button {
         text-decoration: none;
+        padding: 1rem 2rem;
+        font-size: 1.10rem;
+        border-radius: 2rem;
+        cursor: pointer;
+        background: $bg-dark;
+        border: 1px solid $bg-dark;
+        display: inline-block;
+        box-shadow: 2px 2px 3px 3px darken($bg-dark, 5%), -1px -1px 3px 3px lighten($bg-dark, 5%);
+
+        &:hover {
+            box-shadow: 1px 1px 3px 3px lighten($bg-dark, 5%), -2px -2px 4px 4px darken($bg-dark, 7.5%);
+            transition: box-shadow .5s;
+        }
     }
 
     &__content {
