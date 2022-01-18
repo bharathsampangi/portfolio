@@ -13,11 +13,11 @@ function About() {
                         using Javascript stack. My tech stack is ReactJS, NodeJS, Redux, ContextAPI and ExpressJS. I have experience building
                         UI on ReactJS using HTML and Sass.
                     </p>
-                    <button className="btn btn__primary">Download CV</button>
+                    {/* <button className="btn btn__primary">Download CV</button> */}
                 </div>
                 <div className="about__social">
-                    <i className="fab fa-github"></i>
-                    <i className="fab fa-linkedin-in"></i>
+                    <a href="https://github.com/bharathsampangi" target="_blank" rel="noreferrer"><i className="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/bharathsampangi" target="_blank" rel="noreferrer"><i className="fab fa-linkedin-in"></i></a>
                 </div>
             </div>
         </section>     

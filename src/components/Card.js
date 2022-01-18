@@ -24,7 +24,7 @@ export function RightCard({children}) {
 export function PortfolioCard({src, text, link, gitlink}) {
     return(
         <div className="card card__portfolio">
-            <img src={src} className="card__image" />
+            <img src={src} className="card__image" alt="Profile" />
             <div className="card__link">
                 {text}
                 <span className="card__link-icons">
