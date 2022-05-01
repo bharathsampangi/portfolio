@@ -1,6 +1,4 @@
 import React from "react"
-import '../styles/ProgressBar.scss'
-import '../variables/Typography.scss'
 
 function ProgressBar({text, progress}) {
     return (

@@ -1,5 +1,4 @@
 import React from 'react'
-import '../styles/Contact.scss'
 import {ContactCard} from './Card'
 
 function Contact() {
@@ -19,7 +18,6 @@ function Contact() {
                     <br/>
                 </div>
             </div>
-            <p style={{textAlign: 'center', paddingTop: '1rem'}}>Note: Not optimized for mobile screens (WIP)</p>
         </section>
     )
 }

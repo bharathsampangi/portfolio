@@ -1,6 +1,5 @@
 import React from 'react'
 import {PortfolioCard} from './Card'
-import '../styles/Portfolio.scss'
 
 function Portfolio() {
     return (

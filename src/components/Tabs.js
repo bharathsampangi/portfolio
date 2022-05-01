@@ -1,6 +1,4 @@
 import React, {useState} from 'react'
-import '../styles/Tabs.scss'
-import '../variables/Typography.scss'
 import {LeftCard, RightCard} from './Card'
 
 function Tabs() {

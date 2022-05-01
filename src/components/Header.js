@@ -1,6 +1,4 @@
 import React from 'react'
-import '../styles/Header.scss'
-import '../variables/Typography.scss'
 
 function Header() {
     return (
