@@ -15,6 +15,18 @@
         padding-top: 5rem;
     }
 
+    &__desktop {
+        @media screen and (max-width: 1000px) {
+            display: none;
+        }
+    }
+
+    &__mobile {
+        @media screen and (min-width: 1001px) {
+            display: none;
+        }
+    }
+
     &__tab-left {
         width: 50%;
         position: relative;
@@ -36,7 +48,7 @@
                 display: block;
                 border-bottom: 1px solid $color-dark-tertiary;
                 position: absolute;
-                top: 7%;
+                top: 6%;
                 width: 10%;
                 right: 0;
             }
@@ -62,6 +74,13 @@
         position: relative;
         float: right;
 
+        @media screen and (max-width: 1000px) {
+            width: 90%;
+            position: relative;
+            float: left;
+            padding-bottom: 2rem;
+        }
+
         &::after {
             content: '';
             display: block;
@@ -78,7 +97,7 @@
                 display: block;
                 border-bottom: 1px solid $color-dark-tertiary;
                 position: absolute;
-                top: 7%;
+                top: 6%;
                 width: 10%;
                 left: 0;
             }

@@ -1,5 +1,5 @@
-import React from 'react'
-import {PortfolioCard} from './Card'
+import React from "react";
+import { PortfolioCard } from "./Card";
 
 function Portfolio() {
     return (
@@ -11,20 +11,29 @@ function Portfolio() {
             <div class="row">
                 <div className="portfolio__main">
                     <div className="portfolio__container">
-                        <PortfolioCard src="/images/omnifood.png" text="Omnifood" 
-                            link="https://omnifoodpremium.netlify.app" 
-                            gitlink="https://github.com/bharathsampangi/omnifood"/>
-                        <PortfolioCard src="/images/old-profile.png" text="Portfolio Old" 
-                            link="https://bharathsampangi-old.netlify.app" 
-                            gitlink="https://github.com/bharathsampangi/portfolio_website"/>
-                        <PortfolioCard src="/images/banana.png" text="Banana Talk" 
-                            link="https://banana-talk-markfive.netlify.app" 
-                            gitlink="https://github.com/bharathsampangi/banana-language"/>
+                        <PortfolioCard
+                            src="/images/banana.png"
+                            text="Banana Talk"
+                            link="https://banana-talk-markfive.netlify.app"
+                            gitlink="https://github.com/bharathsampangi/banana-language"
+                        />
+                        <PortfolioCard
+                            src="/images/omnifood.png"
+                            text="Omnifood"
+                            link="https://omnifoodpremium.netlify.app"
+                            gitlink="https://github.com/bharathsampangi/omnifood"
+                        />
+                        <PortfolioCard
+                            src="/images/old-profile.png"
+                            text="Portfolio Old"
+                            link="https://bharathsampangi-old.netlify.app"
+                            gitlink="https://github.com/bharathsampangi/portfolio_website"
+                        />
                     </div>
                 </div>
             </div>
         </section>
-    )
+    );
 }
 
-export default Portfolio
+export default Portfolio;
