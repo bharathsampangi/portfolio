@@ -37,7 +37,7 @@ export function PortfolioCard({src, text, link, gitlink}) {
 
 export function ContactCard({ iconClass, title, text }) {
     return (
-        <div className="card">
+        <div className="card card__contact">
             <i className={`icon-big ${iconClass}`}></i>
             <h4>{title}</h4>
             <p>{text}</p>
