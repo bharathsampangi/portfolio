@@ -3,7 +3,7 @@ import React from 'react'
 export function LeftCard({children}) {
     return (
         <>
-            <div class="card card__left">
+            <div className="card card__left">
                 {children}
             </div>
         </>
@@ -13,7 +13,7 @@ export function LeftCard({children}) {
 export function RightCard({children}) {
     return (
         <>
-            <div class="card card__right">
+            <div className="card card__right">
                 {children}
             </div>
         </>
@@ -27,8 +27,8 @@ export function PortfolioCard({src, text, link, gitlink}) {
             <div className="card__link">
                 {text}
                 <span className="card__link-icons">
-                    <a href={link} target="_blank" className="link__small"><i class="fas fa-desktop"></i></a>
-                    <a href={gitlink} target="_blank" className="link__small"><i class="fas fa-code-branch"></i></a>
+                    <a href={link} target="_blank" className="link__small"><i className="fas fa-desktop"></i></a>
+                    <a href={gitlink} target="_blank" className="link__small"><i className="fas fa-code-branch"></i></a>
                 </span>
             </div>
         </div>

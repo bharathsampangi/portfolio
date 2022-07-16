@@ -4,11 +4,11 @@ import {ContactCard} from './Card'
 function Contact() {
     return (
         <section className="contact">
-            <div class="row">
+            <div className="row">
                 <h6>CONTACT</h6>
                 <h2>Get in touch</h2>
             </div>
-            <div class="row">
+            <div className="row">
                 <div className="contact__main">
                     <div className="contact__container">
                         <ContactCard iconClass='fas fa-phone-alt' title='Phone' text='+91 9066392322' />

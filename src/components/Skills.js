@@ -8,7 +8,7 @@ function Skills() {
             <div className="row">
                 <h2>Skills</h2>
             </div>
-            <div class="row skills__box">
+            <div className="row skills__box">
                 <div className="skills__container">
                     <ProgressBar text='HTML 5' progress='100%'/>
                     <ProgressBar text='CSS 3' progress='90%'/>

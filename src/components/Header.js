@@ -5,7 +5,7 @@ function Header() {
         <>
             <div className="header">
                 <div className="header__content">
-                    <div class="header__content-text">
+                    <div className="header__content-text">
                         <p>Hello, I'm </p>
                         <h1>Bharath Sampangi</h1>
                         <h3>A Fullstack Developer</h3>
@@ -15,7 +15,7 @@ function Header() {
                 <div className="header__img">
                     <div className="header__img-outline">
                         <div className="header__img-inline">
-                            <img src="images/profile2.png" alt="" />
+                            <img src="images/profile2.avif" alt="Profile" />
                         </div>
                     </div>
                 </div>
