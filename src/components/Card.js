@@ -27,8 +27,8 @@ export function PortfolioCard({src, text, link, gitlink}) {
             <div className="card__link">
                 {text}
                 <span className="card__link-icons">
-                    <a href={link} target="_blank" className="link__small"><i className="fas fa-desktop"></i></a>
-                    <a href={gitlink} target="_blank" className="link__small"><i className="fas fa-code-branch"></i></a>
+                    <a href={link} target="_blank" rel="noopener noreferrer" className="link__small"><i className="fas fa-desktop"></i></a>
+                    <a href={gitlink} target="_blank" rel="noopener noreferrer" className="link__small"><i className="fas fa-code-branch"></i></a>
                 </span>
             </div>
         </div>
