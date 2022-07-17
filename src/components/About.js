@@ -14,8 +14,8 @@ function About() {
                     {/* <button className="btn btn__primary">Download CV</button> */}
                 </div>
                 <div className="about__social">
-                    <a href="https://github.com/bharathsampangi" target="_blank" rel="noreferrer"><i className="fab fa-github"></i></a>
-                    <a href="https://www.linkedin.com/in/bharathsampangi" target="_blank" rel="noreferrer"><i className="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/bharathsampangi" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/bharathsampangi" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin-in"></i></a>
                 </div>
             </div>
         </section>     
