@@ -8,7 +8,7 @@ function Header() {
                     <div className="header__content-text">
                         <p>Hello, I'm </p>
                         <h1>Bharath Sampangi</h1>
-                        <h3>A Fullstack Developer</h3>
+                        <h3>A FrontEnd Developer</h3>
                         <a href="#about" className="btn__primary header__button" rel="no_referrer">More About Me</a>
                     </div>
                 </div>
