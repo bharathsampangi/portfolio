@@ -15,7 +15,7 @@ function Header() {
                 <div className="header__img">
                     <div className="header__img-outline">
                         <div className="header__img-inline">
-                            <img src="images/profile2.avif" alt="Profile" />
+                            <img src="images/profile2.webp" alt="Profile" />
                         </div>
                     </div>
                 </div>

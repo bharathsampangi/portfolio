@@ -12,19 +12,19 @@ function Portfolio() {
                 <div className="portfolio__main">
                     <div className="portfolio__container">
                         <PortfolioCard
-                            src="/images/banana.avif"
+                            src="/images/banana.webp"
                             text="Banana Talk"
                             link="https://banana-talk-markfive.netlify.app"
                             gitlink="https://github.com/bharathsampangi/banana-language"
                         />
                         <PortfolioCard
-                            src="/images/omnifood.avif"
+                            src="/images/omnifood.webp"
                             text="Omnifood"
                             link="https://omnifoodpremium.netlify.app"
                             gitlink="https://github.com/bharathsampangi/omnifood"
                         />
                         <PortfolioCard
-                            src="/images/old-profile.avif"
+                            src="/images/old-profile.webp"
                             text="Portfolio Old"
                             link="https://bharathsampangi-old.netlify.app"
                             gitlink="https://github.com/bharathsampangi/portfolio_website"
